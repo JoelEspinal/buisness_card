@@ -16,8 +16,8 @@ struct ContentView: View {
                  
                 VStack {
                     Text("Joel Espinal")
-                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                         .bold()
+                        .font(Font.custom("Pacifico-Regular", size: 40))
                         .foregroundColor(.white)
             }
         }

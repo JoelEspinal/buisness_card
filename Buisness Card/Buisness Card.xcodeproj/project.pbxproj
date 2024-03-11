@@ -47,6 +47,7 @@
 		74847E3C2B9F8E8600F61205 /* Buisness_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buisness_CardUITests.swift; sourceTree = "<group>"; };
 		74847E3E2B9F8E8600F61205 /* Buisness_CardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buisness_CardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		74847E4C2B9F9AFD00F61205 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		74847E4E2B9FA37000F61205 /* Buisness-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Buisness-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		74847E1F2B9F8E8200F61205 /* Buisness Card */ = {
 			isa = PBXGroup;
 			children = (
+				74847E4E2B9FA37000F61205 /* Buisness-Card-Info.plist */,
 				74847E4B2B9F9AA300F61205 /* fonts */,
 				74847E202B9F8E8200F61205 /* Buisness_CardApp.swift */,
 				74847E222B9F8E8200F61205 /* ContentView.swift */,
@@ -434,6 +436,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Buisness Card/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Buisness-Card-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -470,6 +473,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Buisness Card/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Buisness-Card-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
