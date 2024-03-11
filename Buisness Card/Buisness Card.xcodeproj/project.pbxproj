@@ -14,6 +14,7 @@
 		74847E332B9F8E8600F61205 /* Buisness_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74847E322B9F8E8600F61205 /* Buisness_CardTests.swift */; };
 		74847E3D2B9F8E8600F61205 /* Buisness_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74847E3C2B9F8E8600F61205 /* Buisness_CardUITests.swift */; };
 		74847E3F2B9F8E8600F61205 /* Buisness_CardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74847E3E2B9F8E8600F61205 /* Buisness_CardUITestsLaunchTests.swift */; };
+		74847E4D2B9F9AFD00F61205 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74847E4C2B9F9AFD00F61205 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		74847E382B9F8E8600F61205 /* Buisness CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buisness CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74847E3C2B9F8E8600F61205 /* Buisness_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buisness_CardUITests.swift; sourceTree = "<group>"; };
 		74847E3E2B9F8E8600F61205 /* Buisness_CardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buisness_CardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74847E4C2B9F9AFD00F61205 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		74847E4B2B9F9AA300F61205 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				74847E4C2B9F9AFD00F61205 /* Pacifico-Regular.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74847E4D2B9F9AFD00F61205 /* Pacifico-Regular.ttf in Resources */,
 				74847E292B9F8E8400F61205 /* Preview Assets.xcassets in Resources */,
 				74847E252B9F8E8400F61205 /* Assets.xcassets in Resources */,
 			);
