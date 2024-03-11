@@ -19,6 +19,9 @@ struct ContentView: View {
                         .bold()
                         .font(Font.custom("Pacifico-Regular", size: 40))
                         .foregroundColor(.white)
+                    Text("Mobile Developer")
+                        .foregroundColor(.white)
+                        .font(.system(size: 25.0))
             }
         }
     }
