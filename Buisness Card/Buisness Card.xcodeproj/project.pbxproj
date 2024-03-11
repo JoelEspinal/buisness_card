@@ -95,6 +95,7 @@
 		74847E1F2B9F8E8200F61205 /* Buisness Card */ = {
 			isa = PBXGroup;
 			children = (
+				74847E4B2B9F9AA300F61205 /* fonts */,
 				74847E202B9F8E8200F61205 /* Buisness_CardApp.swift */,
 				74847E222B9F8E8200F61205 /* ContentView.swift */,
 				74847E242B9F8E8400F61205 /* Assets.xcassets */,
@@ -127,6 +128,13 @@
 				74847E3E2B9F8E8600F61205 /* Buisness_CardUITestsLaunchTests.swift */,
 			);
 			path = "Buisness CardUITests";
+			sourceTree = "<group>";
+		};
+		74847E4B2B9F9AA300F61205 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

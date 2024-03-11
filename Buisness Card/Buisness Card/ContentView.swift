@@ -11,13 +11,14 @@ struct ContentView: View {
     
     var body: some View {
             ZStack {
-                Color(.green).edgesIgnoringSafeArea(.all)
+                Color(red: 0.09, green: 0.63, blue: 0.52)
+                    .edgesIgnoringSafeArea(.all)
                  
                 VStack {
-                     Image(systemName: "globe")
-                        .imageScale(.large)
-                        .foregroundStyle(.tint)
-                    Text("Hello, world!")
+                    Text("Joel Espinal")
+                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .bold()
+                        .foregroundColor(.white)
             }
         }
     }
