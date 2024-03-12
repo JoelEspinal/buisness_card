@@ -15,13 +15,25 @@ struct ContentView: View {
                     .edgesIgnoringSafeArea(.all)
                  
                 VStack {
-                    Text("Joel Espinal")
+                    Image("pikachu")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 150.0, height: 150.0)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                    Text("Pikachu")
                         .bold()
                         .font(Font.custom("Pacifico-Regular", size: 40))
                         .foregroundColor(.white)
-                    Text("Mobile Developer")
+                    Text("Detective")
                         .foregroundColor(.white)
                         .font(.system(size: 25.0))
+                    Divider()
+                    RoundedRectangle(cornerSize: CGSize(width: 25, height: 25))
+                        .frame(width:  300.0, height: 30.0)
+                        .foregroundColor(.white)
+                        .overlay(Text("+4 222-3400")
+                            .foregroundColor(.black))
             }
         }
     }
