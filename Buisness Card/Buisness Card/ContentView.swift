@@ -15,6 +15,7 @@ struct ContentView: View {
                     .edgesIgnoringSafeArea(.all)
                  
                 VStack {
+                    
                     Image("pikachu")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
@@ -29,19 +30,8 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .font(.system(size: 25.0))
                     Divider()
-                    RoundedRectangle(cornerSize: CGSize(width: 25, height: 25))
-                        .frame(width:  300.0, height: 30.0)
-                        .foregroundColor(.white)
-                        .overlay(
-                            HStack(
-                                content: {
-                                    Image(systemName: "phone.fill")
-                                        .foregroundColor(.green)
-                                    Text("+4 222-3400")
-                                }
-                              
-                            )
-                            .foregroundColor(.black))
+                    InfoView(text: "+4 222-3400", imageName: "phone.fill")
+                    InfoView(text: "pikachu@pokedex.com", imageName: "mail.fill")
             }
         }
     }
