@@ -32,7 +32,15 @@ struct ContentView: View {
                     RoundedRectangle(cornerSize: CGSize(width: 25, height: 25))
                         .frame(width:  300.0, height: 30.0)
                         .foregroundColor(.white)
-                        .overlay(Text("+4 222-3400")
+                        .overlay(
+                            HStack(
+                                content: {
+                                    Image(systemName: "phone.fill")
+                                        .foregroundColor(.green)
+                                    Text("+4 222-3400")
+                                }
+                              
+                            )
                             .foregroundColor(.black))
             }
         }
